@@ -1,0 +1,23 @@
+1. Can this language be installed on any operating system? Which ones (Windows, Mac, Unix/Linux)? If not, what are its limitations?
+One can install C++ on any computer with a compatible complier. Linux, Windows, and Mac are all compatible. 
+
+2. Give instructions for how to install the language. 
+I simply did a google search for "c++ download" and used the Dev-C++ download from SourceForge. It allowed me to download the IDE and the 
+language all at once.
+
+https://sourceforge.net/projects/orwelldevcpp/
+
+3. Where do you write programs in this language (e.g.: in: in a text editor, a special editor just for that language, or something else?) 
+There are a couple different ways to write C++ code from what I can see. Most of the options seem like special editors for that language. I will 
+be using the Dev-C++ IDE to write my code in. 
+
+4. How do you run programs that you write? 
+I simply click the "Run" button located in the menu bar in my IDE. 
+
+5. Is there a lot of boiler-plate code needed to write a program (e.g. Java)? Or can you just start writing (e.g. Python and Perl)? 
+Like Java, C++ requires a bit of boiler-plate code to start up a new program. 
+
+6. How do you write comments in your language? 
+//For a single line comment
+/*For a multi-line
+  comment */
