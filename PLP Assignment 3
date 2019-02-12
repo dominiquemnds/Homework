@@ -1,0 +1,41 @@
+1. What are the naming requirements for variables in your language?
+
+C++ is a statically typed language. That is, when you initilize a variable it must have a type. Variables are also 
+defined during compile time. 
+
+1. What about naming conventions? Are they enforced by the compiler/interpreter, or are they
+just standards in the community?
+
+C++ naming styles closely follow Java conventions. Most if not all variables start with a lowercase character and continue using camelCase.
+This isn't forced by the compiler though most programmers prefer this style themselves. Other than that, numbers are allowed and special characters (with the exception of _) 
+are not allowed. 
+
+2. Is your language statically or dynamically typed?
+
+C++ is a statically typed language. 
+
+3. Strongly typed or weakly typed?
+
+C++ is considered weakly typed because, due to type-casting, one can interpret a field of a 
+structure that was an integer as a pointer.
+
+4. If you put this line (or something similar) in a program and try to print x, what does it do? If it
+doesn't compile, why? Is there something you can do to make it compile?
+x = "5" + 6
+
+This line of code would not compile in C++. You would first need to define what type x is and make "5" into a string. 
+You cannot concatinate strings and integers in C++. 
+
+5. Describe the limitations (or lack thereof) of your programming language as they relate to the
+coding portion of the assignment (adding ints and floats, storing different types in lists, etc).
+Are there other restrictions or pitfalls that the documentation mentions that you need to be
+aware of?
+
+As far as I'm aware, there were't any limitations C++ presents regarding the coding portion of this assignment. I had no trouble initilizing 
+different variables. 
+
+6. How do type conversions work in your language? Are the conversions narrowing or widening,
+and do they work by default or do they have to be declared by the programmer?
+
+Type conversions in C++ can be done implicitly or explicitly. Either by simply using a variable in a different way or by typecasting. Some 
+conversions work by default and others need to be declared by the programmer. 
