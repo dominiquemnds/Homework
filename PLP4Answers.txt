@@ -1,0 +1,77 @@
+﻿Dominique Mendes
+CS 330
+2/26/2019
+
+
+
+
+1. What types of conditional statements are available in your language? (e.g.: if/else,
+if/then/else, if/elseif/else). Does it allow for statements other than “if” (e.g. Perl has
+an “unless” statement, which does the opposite of “if”!)
+
+
+C++ offers regular if/else statements, and nested if statements. It’s very similar to Java in the sense that it doesn’t offer any if! or alternative statements like that. 
+
+
+Source: https://www.programiz.com/cpp-programming/if-else
+
+
+2. Does your language use short-circuit evaluation? If so, make sure that your code
+includes an example.
+
+
+Short circuit evaluations (from my understanding) occurs when an and statement is used to evaluate two conditions. When one condition is false, the program will “short circuit” and ignore the second condition. This is because false and anything is false. Yes, C++ does use short circuit evaluation. 
+Source: https://en.wikipedia.org/wiki/Short-circuit_evaluation
+https://softwareengineering.stackexchange.com/questions/325009/short-circuit-evaluation-is-c
+
+
+3. How does your programming language deal with the “dangling else” problem?
+
+
+C++ and Java have both chosen to follow this rule when it comes to dangling else “An else keyword always associates with the nearest preceeding if keyword that does NOT cause a syntax error”. In short, C++ will use the first matching conditions as long as they will not throw an error. 
+
+
+Source:http://www.mathcs.emory.edu/~cheung/Courses/561/Syllabus/2-C/dangling-else.html
+
+
+4. Does your language include multiple types of loops (while, do/while, for, foreach)?
+If so, what are they and how do they differ from each other?
+
+
+
+
+Yes, C++ has all the loops listed above available for their users. A while loop simply lists a condition and some code to be done while the condition is still being met. While the condition is fulfilled, the code will run over and over again. A do-while loop will do a certain command first, then enter into a regular while loop. In this case the while is used more as a conditional for the do statements. As long as the while condition is fulfilled, the do statements will keep executing. A for loop is a counting loop which repeats the code inside of it until the break condition is fulfilled, effectively kicking the computer out of the loop. A for-each loop uses the size of a particular data structure (an array for example) and will execute code to each of the elements inside that data structure. For example, your code might add 1 to any integer inside of an array. At the end of the loop, each element would have been increased by one. Reaching the end of the data structure will kick the computer out of the loop. 
+
+
+5. Can you use break or continue statements (or something similar) to control
+iteration?
+
+
+Yes. Break statements can be used to break iteration or break out of a loop. They will return you to the main code which will then execute normally. Continue statements will take you back to the beginning of a loop for a new iteration. 
+
+
+Source: https://beginnersbook.com/2017/08/cpp-continue-statement/
+
+
+6. If your language supports switch or case statements, do you have to use “break” to
+get out of them? Can you use “continue” to have all of them evaluated?
+
+
+When using switch statements, it’s important to use break to get out of them otherwise all statements will be evaluated. In C++, continue only applies to loops and not switch statements. One cannot use a continue to have all of their switch cases evaluated.
+
+
+Source: https://stackoverflow.com/questions/2146763/using-continue-in-a-switch-statement
+
+
+7. Is there anything special in terms of control flow that your language does that isn't
+addressed in this assignment? If so, what is it and how does it work? Include an
+example of it in your code.
+If your language doesn't support anything like this, then explain why not and what it
+does instead (feel free to check in with me on this if you aren't sure what your
+language does).
+
+
+From the information I’ve gathered, I don’t see anything special in terms of flow of control. Most code will execute linearly without the use of break, continue, or go-to statements. 
+
+
+Source: http://www.cplusplus.com/doc/tutorial/control/
