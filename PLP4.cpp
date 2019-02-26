@@ -37,20 +37,21 @@ for(int i=0;i<10;i++){
 	}
 }
 
-/*int arr[] = { 10, 20, 30, 40 }; 
+int arr[] = { 10, 20, 30, 40 }; 
 
     for (int x : arr) 
         cout << x << endl;
         
 cout<<"The for-each loop works"<<endl;
 
-*/
+
 switch(1){
 	case 1: cout<<"This switch statement works!";
-	continue;
-	case 2: cout<<"This code should execute";
+	break;
+	case 2: cout<<"This code shouldn't execute";
 	break;
 }
+
 }
 
 
