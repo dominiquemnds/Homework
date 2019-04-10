@@ -1,0 +1,25 @@
+﻿Dominique Mendes
+CS 330
+4/3/19
+
+
+1. Code in file.
+
+
+2) You can put a method behind the main in C++, but you have to declare the method beforehand. Otherwise, all methods go before the main method. Example in file. 
+
+
+3) Yes, C++ supports recursive functions. Example in code.
+
+
+4) Yes, C++ supports multiple and unique parameters. Example in code. 
+        
+5) You can return multiple variables in a return in C++, however, you need to return them as a tuple. (I’ve kept this part of the code commented out. I was getting errors regarding my compiler and I’m not sure how to update it. It should work on a c++17 version compiler.)
+        
+6) When inilizating a new variable in a loop that shares the same name as an existing variable, each variable is treated as a separate entity. The new variable is limited to the scope of the loop so you will have two variables with the same name but different values. 
+
+
+7) Even if the variable is inside a function, the variable is treated as a separate entity. 
+
+
+8) C++ does not feature a global keyword, so each variable is limited to its particular scope.
